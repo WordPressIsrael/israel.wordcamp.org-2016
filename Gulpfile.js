@@ -1,3 +1,4 @@
+/* <http://www.sitepoint.com/simple-gulpy-workflow-sass/> */
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
