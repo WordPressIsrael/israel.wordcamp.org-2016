@@ -8,6 +8,7 @@ http://wp.me/PEmnE-Bt
 
 @import "inc/fonts";
 @import "inc/helpers";
+@import "inc/animate";
 
 
 /* Main Styling */
@@ -66,6 +67,12 @@ aside#secondary {
 	a {
 		display: inline-block;
 		color: #fff;
+		box-shadow: none;
+
+		&:hover {
+			@extend .animated;
+			@extend .pulse;
+		}
 
 		img {
 			display: inline;
