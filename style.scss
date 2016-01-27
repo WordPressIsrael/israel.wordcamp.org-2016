@@ -68,6 +68,7 @@ aside#secondary {
 		display: inline-block;
 		color: #fff;
 		box-shadow: none;
+		font-family: 'Open Sans Hebrew', sans-serif;
 
 		&:hover {
 			@extend .animated;
@@ -76,6 +77,12 @@ aside#secondary {
 
 		img {
 			display: inline;
+		}
+
+		h3 {
+			font-size: 1.2em;
+			margin: 10px;
+			font-weight: 100;
 		}
 	}
 }

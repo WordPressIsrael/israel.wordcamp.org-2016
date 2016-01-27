@@ -2422,9 +2422,14 @@ aside#secondary {
   .call-to-action-boxes .c2a-box a {
     display: inline-block;
     color: #fff;
-    box-shadow: none; }
+    box-shadow: none;
+    font-family: 'Open Sans Hebrew', sans-serif; }
     .call-to-action-boxes .c2a-box a img {
       display: inline; }
+    .call-to-action-boxes .c2a-box a h3 {
+      font-size: 1.2em;
+      margin: 10px;
+      font-weight: 100; }
 
 section#text-3 {
   position: absolute;
