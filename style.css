@@ -6,6 +6,7 @@
 כדי ללמוד כיצד זה עובד, כדאי לבקר בכתובת
 http://wp.me/PEmnE-Bt
 */
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 /* Helpers */
 .wc-text-hide, .site-title a {
   text-indent: 100%;
@@ -49,6 +50,11 @@ aside#secondary {
   width: 30%;
   padding: 0 1.665%;
   text-align: center; }
+  .call-to-action-boxes .c2a-box a {
+    display: inline-block;
+    color: #fff; }
+    .call-to-action-boxes .c2a-box a img {
+      display: inline; }
 
 section#text-3 {
   position: absolute;
