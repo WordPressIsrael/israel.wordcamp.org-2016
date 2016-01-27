@@ -2414,9 +2414,13 @@ aside#secondary {
   width: 100%;
   margin: 0; }
 
+/* Center all elements within */
+.call-to-action-boxes {
+  text-align: center; }
+
 .call-to-action-boxes .c2a-box {
-  float: right;
-  width: 30%;
+  display: inline-block;
+  min-width: 28%;
   padding: 0 1.665%;
   text-align: center; }
   .call-to-action-boxes .c2a-box a {
