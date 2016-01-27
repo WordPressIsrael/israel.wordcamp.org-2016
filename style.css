@@ -2438,6 +2438,8 @@ aside#secondary {
       font-size: 2em;
       margin: 10px;
       font-weight: 100; }
+    .call-to-action-boxes .c2a-box a .icon {
+      font-size: 80px; }
 
 section#text-3 {
   position: absolute;
