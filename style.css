@@ -11,7 +11,7 @@ body, button, button[disabled]:hover, button[disabled]:focus, input[type="button
   font-family: 'Open Sans Hebrew', sans-serif !important; }
 
 /* Helpers */
-.wc-text-hide, .site-title a {
+.wc-text-hide, .site-branding .site-title a {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
@@ -2399,7 +2399,7 @@ header#masthead {
   color: #fff;
   margin-bottom: 300px; }
 
-.site-title a {
+.site-branding .site-title a {
   background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
   width: 400px;
   display: block;

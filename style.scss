@@ -29,15 +29,14 @@ header#masthead {
 }
 
 .site-branding {
-}
-
-.site-title a {
-	background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
-	width: 400px;
-	display: block;
-	height: 70px;
-	background-size: cover;
-	@extend .wc-text-hide;
+	.site-title a {
+		background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
+		width: 400px;
+		display: block;
+		height: 70px;
+		background-size: cover;
+		@extend .wc-text-hide;
+	}
 }
 
 .main-navigation a {
