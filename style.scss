@@ -8,6 +8,7 @@ http://wp.me/PEmnE-Bt
 
 @import "inc/fonts";
 @import "inc/helpers";
+@import "inc/ui";
 @import "inc/animate";
 
 /* Main Styling */
@@ -46,9 +47,7 @@ ul#menu-main {
 	background: #59b0cc;
 }
 
-aside#secondary {
-	
-}
+aside#secondary {}
 
 /* Center all elements within */
 .call-to-action-boxes {

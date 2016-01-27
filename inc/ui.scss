@@ -1,0 +1,41 @@
+a.button {
+    display: block;
+    text-align: center;
+    padding: 0.5em 0;
+    border: none;
+    box-shadow: none;
+    background: #59b0cc;
+    color: #fff;
+    text-shadow: 0 -1px 1px #3F8CB1,-1px 0 1px #006799,0 1px 1px #62B4DC,1px 0 1px #006799;
+    box-shadow: 0 1px 0 #006799;
+    font-size: 1.4em;
+    transition: all 0.4s ease;
+    border-radius: 3px;
+
+    &.button-no-radius {
+        border-radius: 0;
+    }
+}
+
+a.button:hover {
+    background: #2398BD;
+}
+
+a.button:focus {
+    background: #027498;
+}
+
+a.button.button-waze {
+    
+    &:before {
+        content: '';
+        width: 35px;
+        height: 30px;
+        background: url(https://israel.wordcamp.org/2016/files/2016/01/icon3.png);
+        display: inline-block;
+        background-size: contain;
+        margin-left: 8px;
+        position: relative;
+        top: 8px;
+    }
+}
