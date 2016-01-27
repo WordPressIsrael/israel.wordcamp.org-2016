@@ -2388,17 +2388,17 @@ body, button, button[disabled]:hover, button[disabled]:focus, input[type="button
 
 /* Main Styling */
 .site-inner {
-  max-width: 100%; }
+  max-width: 100%;
+  position: relative; }
 
 .site-content {
-  padding-top: 2em;
-  position: relative; }
+  padding-top: 2em; }
 
 header#masthead {
   background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(https://israel.wordcamp.org/2016/files/2016/01/Artboard-2.jpg) no-repeat;
   background-size: cover;
   color: #fff;
-  margin-bottom: 300px; }
+  height: 548px; }
 
 .site-branding .site-title a {
   background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
@@ -2443,12 +2443,12 @@ aside#secondary {
 
 section#text-3 {
   position: absolute;
-  top: 0;
+  top: 342px;
   right: 0;
   width: 100%;
   min-height: 200px;
-  background: #59b0cc;
+  background: rgba(89, 176, 204, 0.82);
   color: #fff;
-  padding: 4.5455%;
-  border-top: 0;
-  margin-top: -300px; }
+  /* padding: 4.5455%; */
+  padding: 35px 0px;
+  border-top: 0; }
