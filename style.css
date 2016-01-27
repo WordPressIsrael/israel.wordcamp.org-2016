@@ -2413,11 +2413,6 @@ header#masthead {
 ul#menu-main {
   background: #59b0cc; }
 
-aside#secondary {
-  float: none;
-  width: 100%;
-  margin: 0; }
-
 /* Center all elements within */
 .call-to-action-boxes {
   text-align: center; }
@@ -2458,3 +2453,7 @@ section#text-3 {
   width: 45%;
   float: right;
   padding-left: 2.5%; }
+  .wcorg-organizers .wcorg-organizer:nth-child(odd) {
+    clear: both; }
+  .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
+    margin-top: 1.5em; }

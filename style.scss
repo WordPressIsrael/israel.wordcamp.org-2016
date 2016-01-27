@@ -47,9 +47,7 @@ ul#menu-main {
 }
 
 aside#secondary {
-	float: none;
-	width: 100%;
-	margin: 0;
+	
 }
 
 /* Center all elements within */
@@ -114,5 +112,13 @@ section#text-3 {
 	    width: 45%;
 	    float: right;
 	    padding-left: 2.5%;
+
+	    &:nth-child(odd) {
+	    	clear: both;
+	    }
+
+	    .wcorg-organizer-description p {
+	    	margin-top: 1.5em;
+	    }
 	}
 }
