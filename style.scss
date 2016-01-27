@@ -1,0 +1,84 @@
+/* NOTE: THIS IS AN UNCOMPILED SASS FILE. */
+/*
+ברוך הבא ל-CSS מותאם אישית!
+
+כדי ללמוד כיצד זה עובד, כדאי לבקר בכתובת
+http://wp.me/PEmnE-Bt
+*/
+
+
+/* Helpers */
+.wc-text-hide {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Main Styling */
+.site-inner {
+	max-width: 100%;
+}
+
+.site-content {
+	padding-top: 2em;
+	position: relative;
+}
+
+header#masthead {
+	background: url('https://israel.wordcamp.org/2016/files/2016/01/Artboard-2.jpg') no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin-bottom: 300px;
+}
+
+.site-branding {
+}
+
+.site-title a {
+	background: url('https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png') no-repeat;
+	width: 400px;
+	display: block;
+	height: 70px;
+	background-size: cover;
+}
+
+
+.main-navigation a {
+	color: #fff;
+}
+
+ul#menu-main {
+	background: #59b0cc;
+}
+
+aside#secondary {
+	float: none;
+	width: 100%;
+	margin: 0;
+}
+
+.call-to-action-boxes {
+}
+
+.call-to-action-boxes .c2a-box {
+	float: right;
+	width: 30%;
+	padding: 0 1.665%;
+	text-align: center;
+}
+
+body.home {
+}
+
+section#text-3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	min-height: 300px;
+	background: #59b0cc;
+	color: #fff;
+	padding: 4.5455%;
+	border-top: 0;
+	margin-top: -300px;
+}

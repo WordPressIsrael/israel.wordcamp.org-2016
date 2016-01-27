@@ -1,0 +1,27 @@
+{
+  "name": "css-github",
+  "version": "0.0.0",
+  "description": "This is the preferred method for CSS storage. [Read this](https://make.wordpress.org/community/2015/11/24/remote-css-plugin-launched-on-wordcamp-org/) for more details.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WordPressIsrael/israel.wordcamp.org-2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WordPressIsrael/israel.wordcamp.org-2016/issues"
+  },
+  "homepage": "https://github.com/WordPressIsrael/israel.wordcamp.org-2016"
+}
