@@ -18,6 +18,7 @@ $button-text-color: #fff;
 @import "inc/animate";
 @import "inc/forms";
 @import "inc/specifics";
+@import "inc/responsive";
 
 /* Main Styling */
 .site-inner {
@@ -45,6 +46,11 @@ header#masthead {
 		background-size: cover;
 		@extend .wc-text-hide;
 	}
+	.site-description {
+		color: #fff;
+		float: left;
+		margin-left: 9px;
+	}
 }
 
 .main-navigation a {
@@ -67,6 +73,11 @@ aside#secondary {}
     min-width: 28%;
 	padding: 0 1.665%;
 	text-align: center;
+
+	/* Just color the first one, as if it was featured. */
+	&:first-child a {
+		color: #F3FFBD;
+	}
 
 	a {
 		display: inline-block;
@@ -109,6 +120,7 @@ section#text-3 {
 	/* padding: 4.5455%; */
 	padding: 35px 0px;
 	border-top: 0;
+	box-shadow: 0 2px 0 0 rgba(30,82,97,0.59), 0 3px 0 0 rgba(173,173,173,0.59);
 }
 
 

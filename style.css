@@ -2477,6 +2477,11 @@ input[name=email]:focus {
     -o-transform: rotate(2deg);
     transform: rotate(2deg); }
 
+@media screen and (min-width: 1450px) {
+  div#page {
+    max-width: 1330px;
+    margin: 0 auto !important; } }
+
 /* Main Styling */
 .site-inner {
   max-width: 100%;
@@ -2498,6 +2503,11 @@ header#masthead {
   height: 70px;
   background-size: cover; }
 
+.site-branding .site-description {
+  color: #fff;
+  float: left;
+  margin-left: 9px; }
+
 .main-navigation a {
   color: #fff; }
 
@@ -2512,7 +2522,10 @@ ul#menu-main {
   display: inline-block;
   min-width: 28%;
   padding: 0 1.665%;
-  text-align: center; }
+  text-align: center;
+  /* Just color the first one, as if it was featured. */ }
+  .call-to-action-boxes .c2a-box:first-child a {
+    color: #F3FFBD; }
   .call-to-action-boxes .c2a-box a {
     display: inline-block;
     color: #fff;
@@ -2537,7 +2550,8 @@ section#text-3 {
   color: #fff;
   /* padding: 4.5455%; */
   padding: 35px 0px;
-  border-top: 0; }
+  border-top: 0;
+  box-shadow: 0 2px 0 0 rgba(30, 82, 97, 0.59), 0 3px 0 0 rgba(173, 173, 173, 0.59); }
 
 /* [Page] Organizers Page */
 .wcorg-organizers .wcorg-organizer {
