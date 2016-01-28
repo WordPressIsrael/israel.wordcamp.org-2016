@@ -133,6 +133,24 @@ aside#secondary {}
 				width: 100%;
 			}
 		}
+
+		/* social */
+		&.widget_wpcom_social_media_icons_widget {
+			text-align: center;
+
+			li {
+			   display: inline-block;
+			   float: none !important;
+
+			   a {
+				   	border: none;
+			   	    font-size: 40px;
+
+			   	    a.genericon-facebook {color: #3b5998;}
+			   	    a.genericon-twitter {color: #55acee;}
+			   }
+			}
+		}
 	}
 }
 
