@@ -42,13 +42,14 @@ a.button:focus {
 a.button.button-waze:before {
   content: '';
   width: 35px;
-  height: 30px;
+  height: 19px;
   background: url(https://israel.wordcamp.org/2016/files/2016/01/icon3.png);
   display: inline-block;
   background-size: contain;
   margin-left: 8px;
   position: relative;
-  top: 8px; }
+  top: 3px;
+  background-repeat: no-repeat; }
 
 /*!
  * animate.css -http://daneden.me/animate
