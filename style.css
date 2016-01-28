@@ -2511,12 +2511,24 @@ body.page-slug-become-a-sponsor .entry-content .wp-caption.wcil-sponsor-caption 
     z-index: 1; }
 
 /* Tickets Page */
+@keyframes bgblink {
+  from {
+    background-color: #FAFAE6; }
+  50% {
+    background-color: #fff; }
+  to {
+    background-color: #FDFDDF; } }
+
 .tix_tickets_table th.tix-column-description {
   width: 70%; }
 
 /* highlight premium tickets */
 tr.tix-ticket-266 {
-  background: #FDFDDF; }
+  background: #FDFDDF;
+  -webkit-animation: bgblink 3s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */ }
 
 #tix input[type="submit"] {
   float: left !important; }
