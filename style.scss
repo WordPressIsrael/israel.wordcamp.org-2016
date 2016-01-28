@@ -67,7 +67,8 @@ body:not(.home) header#masthead {
 		color: #fff;
 	}
 
-	li:hover > a {
+	li:hover > a,
+	.current-menu-item > a {
 		background: rgba(216,104,114,0.8);
 		color: #fff;
 	}
