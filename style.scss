@@ -53,6 +53,11 @@ header#masthead {
 	}
 }
 
+/* Customizations */
+body:not(.home) header#masthead {
+    background-image: url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg);
+}
+
 .main-navigation {
 	a {
 		color: #1a1a1a;
