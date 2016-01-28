@@ -2509,6 +2509,13 @@ header#masthead {
   margin-left: 9px; }
 
 .main-navigation a {
+  color: #1a1a1a; }
+
+.main-navigation .primary-menu > li > a {
+  color: #fff; }
+
+.main-navigation li:hover > a {
+  background: rgba(216, 104, 114, 0.8);
   color: #fff; }
 
 ul#menu-main {
