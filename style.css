@@ -45,8 +45,9 @@ a.button {
     border-radius: 0; }
   a.button:hover {
     background: #2398BD; }
-  a.button:focus {
-    background: #027498; }
+  a.button:focus, a.button:active {
+    background: #027498;
+    outline: none; }
   a.button.button-waze:before {
     content: '';
     width: 35px;
@@ -2599,7 +2600,25 @@ ul#menu-main {
 .sidebar .widget.jetpack_subscription_widget {
   background: #EFEFEF;
   padding: 1em;
-  border-top: 4px solid #C8C8C8; }
+  border-top: 4px solid #C8C8C8;
+  text-align: center; }
+  .sidebar .widget.jetpack_subscription_widget:before {
+    content: "\f14a";
+    font-family: FontAwesome;
+    display: block;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    width: 32px; }
+  .sidebar .widget.jetpack_subscription_widget .subscribe-email {
+    margin-bottom: 1em; }
+  .sidebar .widget.jetpack_subscription_widget #jetpack-subscribe-label {
+    display: none; }
+  .sidebar .widget.jetpack_subscription_widget input[type=submit] {
+    width: 100%; }
 
 /* Center all elements within */
 .call-to-action-boxes {

@@ -19,8 +19,10 @@ a.button {
     &:hover {
         background: $button-background-color-hover;
     }
-    &:focus {
+    &:focus,
+    &:active {
         background: $button-background-color-active;
+        outline: none;
     }
 
     /* Waze Button */
