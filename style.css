@@ -2455,7 +2455,6 @@ input[name=email]:focus {
   .home #post-152 {
     background: #FDFDDF;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-    margin: 50px auto;
     position: relative;
     /* width: 492px; */
     background-image: -webkit-radial-gradient(#FEFEFE 21%, transparent 21%), -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 21%, transparent 26%), -webkit-linear-gradient(top, transparent 0%, transparent 95%, rgba(96, 159, 159, 0.1) 95%, rgba(96, 159, 159, 0.1) 100%);
