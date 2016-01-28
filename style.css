@@ -2613,7 +2613,7 @@ ul#menu-main {
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
     width: 32px; }
-  .sidebar .widget.jetpack_subscription_widget .subscribe-email {
+  .sidebar .widget.jetpack_subscription_widget #subscribe-email {
     margin-bottom: 1em; }
   .sidebar .widget.jetpack_subscription_widget #jetpack-subscribe-label {
     display: none; }
