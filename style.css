@@ -2641,7 +2641,8 @@ ul#menu-main {
     display: inline-block;
     color: #fff;
     box-shadow: none;
-    font-family: 'Open Sans Hebrew', sans-serif; }
+    font-family: 'Open Sans Hebrew', sans-serif;
+    /* social networks, plus sign */ }
     .call-to-action-boxes .c2a-box a img {
       display: inline; }
     .call-to-action-boxes .c2a-box a h3 {
@@ -2650,6 +2651,11 @@ ul#menu-main {
       font-weight: 100; }
     .call-to-action-boxes .c2a-box a .icon {
       font-size: 80px; }
+    .call-to-action-boxes .c2a-box a .icon-plus-sign {
+      font-size: 24px;
+      position: relative;
+      top: -12px;
+      left: -6px; }
 
 section#text-3 {
   position: absolute;
