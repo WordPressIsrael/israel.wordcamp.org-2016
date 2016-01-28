@@ -55,9 +55,11 @@ body {
 		background: $consistent-background-masthead, url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg) no-repeat;
 	}
 
-	@each $profile, $bgcolor in $pages {
+	@each $profile, $background-url in $pages {
 	    &.page-slug-#{$profile}  {
-	        header#masthead{ background: $bgcolor };
+	        header#masthead{
+				background: $consistent-background-masthead, $background-url no-repeat;
+	        };
 	    }
 	}
 }

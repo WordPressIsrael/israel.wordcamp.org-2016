@@ -2561,13 +2561,13 @@ body {
   body:not(.home) header#masthead {
     background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg) no-repeat; }
   body.page-slug-become-a-sponsor header#masthead {
-    background: url(//israel.wordcamp.org/2016/files/2016/01/23801765790_6c4874bc4f_k.jpg); }
+    background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/23801765790_6c4874bc4f_k.jpg) no-repeat; }
   body.page-slug-tickets header#masthead {
-    background: url(//israel.wordcamp.org/2016/files/2016/01/5594957160_235655ae5b_o-copy-1.jpg); }
+    background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/5594957160_235655ae5b_o-copy-1.jpg) no-repeat; }
   body.page-slug-organizers header#masthead {
-    background: url(//israel.wordcamp.org/2016/files/2016/01/7715958400_1e9e33f113_o-copy.jpg); }
+    background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/7715958400_1e9e33f113_o-copy.jpg) no-repeat; }
   body.page-slug-schedule header#masthead {
-    background: url(//israel.wordcamp.org/2016/files/2016/01/5594942746_697c8385b2_o-copy.jpg); }
+    background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/5594942746_697c8385b2_o-copy.jpg) no-repeat; }
 
 .site-branding .site-title a {
   background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
