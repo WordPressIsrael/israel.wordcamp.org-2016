@@ -37,6 +37,11 @@ header#masthead {
 	height: 548px;
 }
 
+/* Customizations */
+body:not(.home) header#masthead {
+	background: linear-gradient( rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6) ), url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg) no-repeat;
+}
+
 .site-branding {
 	.site-title a {
 		background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
@@ -51,11 +56,6 @@ header#masthead {
 		float: left;
 		margin-left: 9px;
 	}
-}
-
-/* Customizations */
-body:not(.home) header#masthead {
-    background-image: url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg);
 }
 
 .main-navigation {
