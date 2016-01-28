@@ -87,7 +87,8 @@ aside#secondary {}
 
 	/* Just color the first one, as if it was featured. */
 	&:first-child a {
-		color: #F3FFBD;
+		color: #F3DC45;
+		text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.21);
 	}
 
 	a {
