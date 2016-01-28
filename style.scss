@@ -31,16 +31,35 @@ $button-text-color: #fff;
 	padding-top: 2em;
 }
 
+$consistent-background-masthead: linear-gradient( rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6) );
+
 header#masthead {
-	background: linear-gradient( rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6) ), url(https://israel.wordcamp.org/2016/files/2016/01/Artboard-2.jpg) no-repeat;
+	background: $consistent-background-masthead, url(https://israel.wordcamp.org/2016/files/2016/01/Artboard-2.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
 	height: 548px;
 }
 
 /* Customizations */
-body:not(.home) header#masthead {
-	background: linear-gradient( rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6) ), url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg) no-repeat;
+$pages: (
+	become-a-sponsor: url(//israel.wordcamp.org/2016/files/2016/01/23801765790_6c4874bc4f_k.jpg),
+	tickets: url(//israel.wordcamp.org/2016/files/2016/01/5594957160_235655ae5b_o-copy-1.jpg),
+	organizers: url(//israel.wordcamp.org/2016/files/2016/01/7715958400_1e9e33f113_o-copy.jpg),
+	schedule: url(//israel.wordcamp.org/2016/files/2016/01/5594942746_697c8385b2_o-copy.jpg)
+);
+
+
+body {
+	/* Default for inner pages */
+	&:not(.home) header#masthead {
+		background: $consistent-background-masthead, url(//israel.wordcamp.org/2016/files/2016/01/8831692090_83edfbca2b_o-e1453952126144.jpg) no-repeat;
+	}
+
+	@each $profile, $bgcolor in $pages {
+	    &.page-slug-#{$profile}  {
+	        header#masthead{ background: $bgcolor };
+	    }
+	}
 }
 
 .site-branding {
