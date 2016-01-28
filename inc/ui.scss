@@ -4,7 +4,7 @@ a.button {
     padding: 0.5em 0;
     border: none;
     box-shadow: none;
-    background: #59b0cc;
+    background: $button-background-color;
     color: #fff;
     text-shadow: 0 -1px 1px #3F8CB1,-1px 0 1px #006799,0 1px 1px #62B4DC,1px 0 1px #006799;
     box-shadow: 0 1px 0 #006799;
@@ -18,11 +18,11 @@ a.button {
 }
 
 a.button:hover {
-    background: #2398BD;
+    background: $button-background-color-hover;
 }
 
 a.button:focus {
-    background: #027498;
+    background: $button-background-color-active;
 }
 
 a.button.button-waze {
@@ -38,5 +38,18 @@ a.button.button-waze {
         position: relative;
         top: 3px;
         background-repeat: no-repeat;
+    }
+}
+
+/* More buttons and inputs */
+button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
+    font-weight: 100;
+    background: $button-background-color;
+
+    &:hover {
+        background: $button-background-color-hover;
+    }
+    &:focus {
+        background: $button-background-color-active;
     }
 }
