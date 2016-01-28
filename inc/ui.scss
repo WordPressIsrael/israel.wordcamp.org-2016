@@ -15,31 +15,41 @@ a.button {
     &.button-no-radius {
         border-radius: 0;
     }
-}
 
-a.button:hover {
-    background: $button-background-color-hover;
-}
+    &:hover {
+        background: $button-background-color-hover;
+    }
+    &:focus {
+        background: $button-background-color-active;
+    }
 
-a.button:focus {
-    background: $button-background-color-active;
-}
+    /* Waze Button */
+    &.button-waze {
+        &:before {
+            content: '';
+            width: 35px;
+            height: 19px;
+            background: url(https://israel.wordcamp.org/2016/files/2016/01/icon3.png);
+            display: inline-block;
+            background-size: contain;
+            margin-left: 8px;
+            position: relative;
+            top: 3px;
+            background-repeat: no-repeat;
+        }
+    }
 
-a.button.button-waze {
-    
-    &:before {
-        content: '';
-        width: 35px;
-        height: 19px;
-        background: url(https://israel.wordcamp.org/2016/files/2016/01/icon3.png);
-        display: inline-block;
-        background-size: contain;
-        margin-left: 8px;
-        position: relative;
-        top: 3px;
-        background-repeat: no-repeat;
+    &.button-red {
+        background: rgb(255, 22, 84);
+        text-shadow: none;
+
+        &:hover { background: rgb(233, 0, 62); }
+        &:focus { background: rgb(171, 1, 46); }
     }
 }
+
+
+
 
 /* More buttons and inputs */
 button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
