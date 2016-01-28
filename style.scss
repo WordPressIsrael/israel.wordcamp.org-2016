@@ -141,13 +141,14 @@ aside#secondary {}
 			li {
 			   display: inline-block;
 			   float: none !important;
+			   margin: 0 10px;
 
 			   a {
 				   	border: none;
 			   	    font-size: 40px;
 
-			   	    a.genericon-facebook {color: #3b5998;}
-			   	    a.genericon-twitter {color: #55acee;}
+			   	    &.genericon-facebook {color: #3b5998;}
+			   	    &.genericon-twitter {color: #55acee;}
 			   }
 			}
 		}

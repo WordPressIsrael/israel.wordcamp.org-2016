@@ -2625,13 +2625,14 @@ ul#menu-main {
     text-align: center; }
     .sidebar .widget.widget_wpcom_social_media_icons_widget li {
       display: inline-block;
-      float: none !important; }
+      float: none !important;
+      margin: 0 10px; }
       .sidebar .widget.widget_wpcom_social_media_icons_widget li a {
         border: none;
         font-size: 40px; }
-        .sidebar .widget.widget_wpcom_social_media_icons_widget li a a.genericon-facebook {
+        .sidebar .widget.widget_wpcom_social_media_icons_widget li a.genericon-facebook {
           color: #3b5998; }
-        .sidebar .widget.widget_wpcom_social_media_icons_widget li a a.genericon-twitter {
+        .sidebar .widget.widget_wpcom_social_media_icons_widget li a.genericon-twitter {
           color: #55acee; }
 
 /* Center all elements within */
