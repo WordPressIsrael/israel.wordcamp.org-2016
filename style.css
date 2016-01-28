@@ -2477,6 +2477,10 @@ input[name=email]:focus {
     -o-transform: rotate(2deg);
     transform: rotate(2deg); }
 
+/* English-related rules */
+.post.category-english {
+  direction: ltr; }
+
 @media screen and (min-width: 1450px) {
   div#page {
     max-width: 1330px;
@@ -2519,7 +2523,7 @@ header#masthead {
   color: #fff; }
 
 ul#menu-main {
-  background: #59b0cc; }
+  background: rgba(89, 176, 204, 0.79); }
 
 /* Center all elements within */
 .call-to-action-boxes {
