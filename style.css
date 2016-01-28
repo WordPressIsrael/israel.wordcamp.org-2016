@@ -2595,6 +2595,12 @@ body {
 ul#menu-main {
   background: rgba(89, 176, 204, 0.79); }
 
+/* Sidebar */
+.sidebar .widget.jetpack_subscription_widget {
+  background: #EFEFEF;
+  padding: 1em;
+  border-top: 4px solid #C8C8C8; }
+
 /* Center all elements within */
 .call-to-action-boxes {
   text-align: center; }
