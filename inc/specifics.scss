@@ -86,3 +86,19 @@ body.page-slug-become-a-sponsor {
     }
   }
 }
+
+/* Tickets Page */
+.tix_tickets_table th.tix-column-description {
+  width: 70%;
+}
+/* highlight premium tickets */
+tr.tix-ticket-266 {
+  background: #FDFDDF;
+}
+
+#tix input[type="submit"] {
+  float: left !important;
+}
+.tix-submit {
+  text-align: left;
+}

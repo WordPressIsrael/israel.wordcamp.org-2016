@@ -2510,6 +2510,20 @@ body.page-slug-become-a-sponsor .entry-content .wp-caption.wcil-sponsor-caption 
     top: 0;
     z-index: 1; }
 
+/* Tickets Page */
+.tix_tickets_table th.tix-column-description {
+  width: 70%; }
+
+/* highlight premium tickets */
+tr.tix-ticket-266 {
+  background: #FDFDDF; }
+
+#tix input[type="submit"] {
+  float: left !important; }
+
+.tix-submit {
+  text-align: left; }
+
 @media screen and (min-width: 1450px) {
   div#page {
     max-width: 1330px;
