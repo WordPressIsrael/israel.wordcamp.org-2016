@@ -2626,8 +2626,8 @@ ul#menu-main {
 
 .call-to-action-boxes .c2a-box {
   display: inline-block;
-  min-width: 28%;
-  padding: 0 1.665%;
+  min-width: 24%;
+  padding: 0 0.5%;
   text-align: center;
   /* Just color the first one, as if it was featured. */ }
   .call-to-action-boxes .c2a-box.c2a-box-featured a {
