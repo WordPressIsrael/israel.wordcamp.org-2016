@@ -109,3 +109,18 @@ tr.tix-ticket-266 {
 .tix-submit {
   text-align: left;
 }
+
+
+/* English Page */
+body.page-slug-english {
+  div#primary {
+    direction: ltr !important;
+  }
+
+  /* Hide from Main Menu pages that are not in English */
+  ul.primary-menu li:not(.page-english) { display: none; }
+}
+
+body:not(.page-slug-english) {
+  ul.primary-menu li.page-english { display: none; }
+}

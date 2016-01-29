@@ -2536,6 +2536,17 @@ tr.tix-ticket-266 {
 .tix-submit {
   text-align: left; }
 
+/* English Page */
+body.page-slug-english {
+  /* Hide from Main Menu pages that are not in English */ }
+  body.page-slug-english div#primary {
+    direction: ltr !important; }
+  body.page-slug-english ul.primary-menu li:not(.page-english) {
+    display: none; }
+
+body:not(.page-slug-english) ul.primary-menu li.page-english {
+  display: none; }
+
 @media screen and (min-width: 1450px) {
   div#page {
     max-width: 1330px;
