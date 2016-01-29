@@ -118,7 +118,10 @@ body.page-slug-english {
   }
 
   /* Hide from Main Menu pages that are not in English */
-  ul.primary-menu li:not(.page-english) { display: none; }
+  ul.primary-menu {
+    li:not(.page-english) { display: none; }
+    li.page-english { float: left; }
+  }
 }
 
 body:not(.page-slug-english) {

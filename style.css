@@ -2543,6 +2543,8 @@ body.page-slug-english {
     direction: ltr !important; }
   body.page-slug-english ul.primary-menu li:not(.page-english) {
     display: none; }
+  body.page-slug-english ul.primary-menu li.page-english {
+    float: left; }
 
 body:not(.page-slug-english) ul.primary-menu li.page-english {
   display: none; }
