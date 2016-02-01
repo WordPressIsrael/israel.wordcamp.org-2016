@@ -2581,6 +2581,8 @@ body {
     background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/7715958400_1e9e33f113_o-copy.jpg) no-repeat; }
   body.page-slug-schedule header#masthead {
     background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/01/5594942746_697c8385b2_o-copy.jpg) no-repeat; }
+  body.page-slug-contributor-workshop header#masthead {
+    background: linear-gradient(rgba(8, 1, 1, 0.45), rgba(255, 22, 84, 0.6)), url(//israel.wordcamp.org/2016/files/2016/02/24071356846_22c3b1b8c9_k-copy-contributors.jpg) no-repeat; }
 
 .site-branding .site-title a {
   background: url(https://israel.wordcamp.org/2016/files/2016/01/logo-custom-light.png) no-repeat;
