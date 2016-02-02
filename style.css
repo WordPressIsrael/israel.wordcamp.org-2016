@@ -2451,8 +2451,7 @@ input[name=email]:focus {
 .home {
   /* <https://jsfiddle.net/joshnh/ZP2En/> */ }
   .home #post-152 {
-    min-height: 608px; }
-  .home #post-152 {
+    display: inline-block;
     background: #FDFDDF;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
     position: relative;
