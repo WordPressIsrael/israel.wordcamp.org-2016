@@ -12,11 +12,12 @@ $button-background-color-hover: #2398BD;
 $button-background-color-active: #027498;
 $button-text-color: #fff;
 
+/* Imports */
 @import "inc/fonts";
 @import "inc/typography";
 @import "inc/helpers";
 @import "inc/ui";
-@import "inc/animate";
+// @import "inc/animate";
 @import "inc/forms";
 @import "inc/specifics";
 @import "inc/responsive";

@@ -4,3 +4,80 @@
 		margin: 0 auto !important;
 	}
 }
+
+
+/* Homepage */
+@media screen and (max-width: 44.375em) {
+
+		
+	.site-header-menu.toggled-on, .no-js .site-header-menu {
+		z-index: 99;
+	}
+	.site-header-menu {
+		#menu-main {
+			background: rgba(45, 106, 125, 0.92);
+
+			& > li > a {
+				padding-right: 1em;
+				padding-left: 1em;
+			}
+		}
+	}
+
+	#page header#masthead {
+		height: 472px;
+	}
+	
+	section#text-3 {
+		top: 130px  !important;
+
+		.c2a-box {
+		    display: inline-block;
+		    padding: 0;
+		    width: 49%;
+		    padding: 0 !important;
+		    margin: 0;
+
+		    a {
+	    		width: 100%;
+	    		padding: 24px 10%;
+	    	}
+
+	    	.c2a-icon {
+				/* float: right; */
+				display: inline-block;
+				min-width: 20%;
+
+				.icon {
+					font-size: 40px;
+				}
+			}
+
+			h3 {
+				display: block;
+				font-size: 1.5em !important;
+				white-space: nowrap;
+			}
+		}
+
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.site-branding {
+		width: 70%;
+		margin-top: 0;
+ 
+
+		.site-title {
+
+			a {
+				width: 100% !important;
+				background-size: contain !important;
+			}
+		}
+	}
+	.site-header-main #menu-toggle {
+		margin-top: -25px;
+	}
+}

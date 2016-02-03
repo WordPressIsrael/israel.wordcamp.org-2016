@@ -1,6 +1,7 @@
 /* <http://www.sitepoint.com/simple-gulpy-workflow-sass/> */
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 
 
 var input = './*.scss';
@@ -15,8 +16,12 @@ gulp.task('sass', function () {
   return gulp
     // Find all `.scss` files from the `stylesheets/` folder
     .src(input)
+    // sourcemaps
+    .pipe(sourcemaps.init())
     // Run Sass on those files
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
+    // write sourcemaps
+    .pipe(sourcemaps.write('./'))
     // Write the resulting CSS in the output folder
     .pipe(gulp.dest(output));
 });
