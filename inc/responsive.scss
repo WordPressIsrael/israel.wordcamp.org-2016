@@ -122,18 +122,18 @@
 
 		li:hover > ul,
 		li.focus > ul {
-			left: auto;
-			right: 0;
+			left: auto !important;
+			right: 0 !important;
 		}
 
 		ul ul {
 			&:before {
-				left: auto;
-				right: 9px;
+				left: auto !important;
+				right: 9px !important;
 			}
 			&:after {
-				left: auto;
-			    right: 11px;
+				left: auto !important;
+			    right: 11px !important;
 			}
 		}
 	}
