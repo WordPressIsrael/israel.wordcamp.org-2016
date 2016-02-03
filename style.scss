@@ -136,6 +136,14 @@ aside#secondary {}
 			}
 		}
 
+		/* mailchimp */
+		&.widget_wcorg_mailchimp_wiget {
+			input[type="submit"] {
+				width: 100%;
+				margin-top: 1em;
+			}
+		}
+
 		/* social */
 		&.widget_wpcom_social_media_icons_widget {
 			text-align: center;

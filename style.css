@@ -306,6 +306,7 @@ ul#menu-main {
 
 /* Sidebar */
 .sidebar .widget {
+  /* mailchimp */
   /* social */ }
   .sidebar .widget.jetpack_subscription_widget {
     background: #EFEFEF;
@@ -329,6 +330,9 @@ ul#menu-main {
       display: none; }
     .sidebar .widget.jetpack_subscription_widget input[type=submit] {
       width: 100%; }
+  .sidebar .widget.widget_wcorg_mailchimp_wiget input[type="submit"] {
+    width: 100%;
+    margin-top: 1em; }
   .sidebar .widget.widget_wpcom_social_media_icons_widget {
     text-align: center; }
     .sidebar .widget.widget_wpcom_social_media_icons_widget li {
