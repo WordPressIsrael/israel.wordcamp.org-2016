@@ -181,6 +181,11 @@ body.page-slug-english {
 body:not(.page-slug-english) ul.primary-menu li.page-english {
   display: none; }
 
+/* MailChimp forms */
+.wcorg-mailchimp input[type="submit"] {
+  width: 100%;
+  margin-top: 1em; }
+
 @media screen and (min-width: 1450px) {
   div#page {
     max-width: 1330px;
