@@ -232,7 +232,10 @@ body:not(.page-slug-english) ul.primary-menu li.page-english {
       section#text-3 .c2a-box h3 {
         display: block;
         font-size: 1.5em !important;
-        white-space: nowrap; } }
+        white-space: nowrap; }
+  /* Tickets page */
+  .tix_tickets_table th.tix-column-description {
+    width: 50%; } }
 
 @media screen and (max-width: 450px) {
   .site-branding {

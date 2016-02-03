@@ -90,6 +90,12 @@
 		}
 
 	}
+
+
+	/* Tickets page */
+	.tix_tickets_table th.tix-column-description {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 450px) {
