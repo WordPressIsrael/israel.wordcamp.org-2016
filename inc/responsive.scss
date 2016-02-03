@@ -9,6 +9,20 @@
 /* Homepage */
 @media screen and (max-width: 44.375em) {
 
+
+	.site-branding {
+		width: 70%;
+		margin-top: 0;
+ 
+
+		.site-title {
+
+			a {
+				width: 100% !important;
+			}
+		}
+	}
+
 		
 	.site-header-menu.toggled-on, .no-js .site-header-menu {
 		z-index: 99;
