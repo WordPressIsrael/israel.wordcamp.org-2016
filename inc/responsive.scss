@@ -116,3 +116,25 @@
 		margin-top: -25px;
 	}
 }
+
+@media screen and (min-width: 56.875em) {
+	.main-navigation {
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+			right: 0;
+		}
+
+		ul ul {
+			&:before {
+				left: auto;
+				right: 9px;
+			}
+			&:after {
+				left: auto;
+			    right: 11px;
+			}
+		}
+	}
+}

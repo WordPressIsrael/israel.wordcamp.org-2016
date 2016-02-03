@@ -248,6 +248,18 @@ body:not(.page-slug-english) ul.primary-menu li.page-english {
   .site-header-main #menu-toggle {
     margin-top: -25px; } }
 
+@media screen and (min-width: 56.875em) {
+  .main-navigation li:hover > ul,
+  .main-navigation li.focus > ul {
+    left: auto;
+    right: 0; }
+  .main-navigation ul ul:before {
+    left: auto;
+    right: 9px; }
+  .main-navigation ul ul:after {
+    left: auto;
+    right: 11px; } }
+
 /* Main Styling */
 .site-inner {
   max-width: 100%;
