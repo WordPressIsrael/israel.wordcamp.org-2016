@@ -23,6 +23,21 @@
 		}
 	}
 
+	button#menu-toggle {
+		width: 40px;
+		padding: 13px 5px;
+		line-height: 0.2;
+
+		&:before {
+			content: "\f0c9";
+			font-family: FontAwesome;
+			color: #fff;
+			text-align: center;
+			/* margin: 0 auto; */
+			display: inline-block;
+		}
+	}
+
 		
 	.site-header-menu.toggled-on, .no-js .site-header-menu {
 		z-index: 99;

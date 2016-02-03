@@ -192,6 +192,17 @@ body:not(.page-slug-english) ul.primary-menu li.page-english {
     margin-top: 0; }
     .site-branding .site-title a {
       width: 100% !important; }
+  button#menu-toggle {
+    width: 40px;
+    padding: 13px 5px;
+    line-height: 0.2; }
+    button#menu-toggle:before {
+      content: "\f0c9";
+      font-family: FontAwesome;
+      color: #fff;
+      text-align: center;
+      /* margin: 0 auto; */
+      display: inline-block; }
   .site-header-menu.toggled-on, .no-js .site-header-menu {
     z-index: 99; }
   .site-header-menu #menu-main {
@@ -275,14 +286,14 @@ body {
   float: left;
   margin-left: 9px; }
 
-.main-navigation a {
+.site-header-menu .main-navigation a {
   color: #1a1a1a; }
 
-.main-navigation .primary-menu > li > a {
+.site-header-menu .main-navigation .primary-menu > li > a {
   color: #fff; }
 
-.main-navigation li:hover > a,
-.main-navigation .current-menu-item > a {
+.site-header-menu .main-navigation li:hover > a,
+.site-header-menu .main-navigation .current-menu-item > a {
   background: rgba(216, 104, 114, 0.8);
   color: #fff; }
 
