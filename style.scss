@@ -162,6 +162,39 @@ aside#secondary {}
 			   }
 			}
 		}
+
+		/* sponsors */
+		&.wcb_widget_sponsors {
+			.sponsor-logo {
+				max-width: 220px;
+			    padding: 3px;
+			    text-align: center;
+			    display: inline-block !important;
+			}
+
+			.sponsor-level {
+			     text-align: center;
+
+			     .sponsor-level-title {
+			         font-size: 1.3em;
+			         font-weight: 600;
+			         border-bottom: 1px dashed #E6E6E6;
+			         padding: 0.5em 0;
+			         margin-top: 1em;
+			     }
+
+
+			    &.splendid, &.superb {
+			    	.sponsor-logo {
+				    	max-width: 160px;
+			    	}
+			    }
+
+			    &.outstanding  .sponsor-logo {
+				    max-width: 250px;
+				}
+			}
+		}
 	}
 }
 
